@@ -34,10 +34,17 @@ pip install -r requirements.txt
 
 Run the following command to train the model:
 
+- Continuous Particle Filter in RNN
 ```bash
+cd CON_PF_RNN
 python main.py 
 ```
 
+- Continuous Particle Filter in DARNN for the time series prediction
+```bash
+cd PF_DA_RNN_CONTINUOUS
+python main.py 
+```
 ---
 
 
